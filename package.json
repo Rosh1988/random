@@ -1,0 +1,26 @@
+{
+  "name": "webhook",
+  "version": "1.0.0",
+  "description": "webhook service for crid flow",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rosh1988/random.git"
+  },
+  "keywords": [
+    "automation"
+  ],
+  "author": "vigour",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Rosh1988/random/issues"
+  },
+  "homepage": "https://github.com/Rosh1988/random#readme",
+  "dependencies": {
+    "github-webhook-handler": "^0.6.0"
+  }
+}
